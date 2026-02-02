@@ -1,2 +1,2 @@
-# Edge2Face
-This project implement a GAN-based approach to synthesize realistic facial images from edge-based sketches. 
+# Sketch 2 Image  
+This project implements a Conditional Generative Adversarial Network (cGAN) to synthesize realistic facial images from sketch inputs. A custom dataset was created by applying Holistically-Nested Edge Detection (HED) to real facial images to extract structural edges. To further enhance the resemblance to human-drawn sketches, additional preprocessing steps such as binarization and thinning were applied.
